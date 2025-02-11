@@ -1,0 +1,35 @@
+{
+	"name": "@lndgalante/torrent-grabber",
+	"version": "1.0.2",
+	"description": "Simple torrent search engine",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lndgalante/torrent-grabber.git"
+	},
+	"bugs": {
+		"url": "https://github.com/lndgalante/torrent-grabber/issues"
+	},
+	"homepage": "https://github.com/lndgalante/torrent-grabber#readme",
+	"keywords": [
+		"torrent",
+		"scraper",
+		"crawler",
+		"node",
+		"api",
+		"rutracker",
+		"nnm",
+		"thepiratebay",
+		"1337x"
+	],
+	"author": "Leonardo Galante",
+	"license": "ISC",
+	"dependencies": {
+		"filesize": "^4.1.2",
+		"needle": "^2.2.4",
+		"x-ray": "^2.3.3"
+	}
+}
